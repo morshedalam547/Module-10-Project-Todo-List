@@ -4,6 +4,7 @@ let todos = [
     { title: "learn Js", done: true },
     { title: "Read a book", done: false },
     { title: "Workout", done: true },
+    { title: "Make a Simple Project", done: true },
     
 ];
 
