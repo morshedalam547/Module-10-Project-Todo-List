@@ -10,19 +10,17 @@ let todos = [
 
 
 // Step 2: Filter the todos into two categories
- doneTodos = todos.filter(todo => todo.done);
- ongoingTodos = todos.filter(todo => !todo.done);
-
+doneTodos = todos.filter(task => task.done);
+ongoingTodos = todos.filter (task => !task.done);
 
 
 console.log("✅ Done Todos:");
-doneTodos.forEach(todo => {
-    console.log(`- ${todo.title}`);
+doneTodos.forEach(task =>{
+	console.log(`-${task.title}`);
 });
 
 
-
-console.log("\n🕒 Ongoing Todos:");
-ongoingTodos.forEach(todo => {
-    console.log(`- ${todo.title}`);
+console.log ("\n ⏲️ Ongoing Todos:");
+ongoingTodos.forEach(task =>{
+	console.log(`-${task.title}`)
 });
